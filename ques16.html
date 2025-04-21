@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ques16</title>
+  <style>
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .section {
+      margin: 20px auto;
+      max-width: 90%;
+      border-radius: 8px;
+    }
+
+    .px-section {
+      background-color: #add8e6;
+      padding: 20px;
+      font-size: 18px;
+      width: 600px;
+    }
+
+    .rem-section {
+      background-color: #90ee90;
+      padding: 1.25rem;
+      font-size: 1.125rem;
+      width: 37.5rem; 
+    }
+
+    @media (max-width: 768px) {
+      .px-section {
+        width: 90%;
+        font-size: 16px;
+        padding: 15px;
+      }
+
+      .rem-section {
+        width: 90%;
+        font-size: 1rem;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="section px-section">
+    <h2>Section using px</h2>
+    <p>This section uses fixed pixel units. </p>
+  </div>
+
+  <div class="section rem-section">
+    <h2>Section using rem</h2>
+    <p>This section uses relative units. </p>
+  </div>
+
+</body>
+</html>

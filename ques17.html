@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ques17</title>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: 5fr 5fr 5fr;
+      gap: 15px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="gallery">
+    <img src="downloaddd.jpeg" alt="Img1">
+    <img src="images.jpeg" alt="Img2">
+    <img src="downloadd.jpg" alt="Img3">
+  </div>
+</body>
+</html>

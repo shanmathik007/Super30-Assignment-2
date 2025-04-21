@@ -1,0 +1,78 @@
+.p{
+    color: red;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    background-color: beige;
+    display:flex;
+    justify-content:flex-end;
+    margin:0;
+}
+footer{
+    background-color: blanchedalmond;
+    display:flex;
+    text-align:center;
+}
+.about_box{
+    margin: 0px;/*box dist from edge*/
+    padding:100px; /*space between content and border*/
+    width:35%; /*to make it responsive the box covers 35% of the total viewport height*/
+    border: 15px solid goldenrod;/*border of 15px with a golden color*/
+    background-color: grey;
+    text-align: center;
+}
+.lii{
+    background-color: bisque;
+}
+.table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:50%
+}
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin:0;
+    padding: 5px;
+}
+.container>div{
+    width: 300px;
+    height:300px;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: wheat;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: brown;
+}
